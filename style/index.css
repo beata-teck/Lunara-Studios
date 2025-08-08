@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'poppins' , sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+header{
+    background-color: #ff4f81;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.nav-link{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+}
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero{
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #ffa500),#ff4f81;
+    color: white;
+}
+.cta-button{
+    background: white;
+    color:#ff4f81;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    background-color: #ff4f81;
+
+}
