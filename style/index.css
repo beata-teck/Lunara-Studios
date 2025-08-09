@@ -5,7 +5,7 @@ body{
     color: #333;
 }
 header{
-    
+   
     background-color: #ff4f81;
     padding: 20px;
     color: white;
@@ -24,6 +24,8 @@ header{
     font-weight: bold;
 }
 .hero{
+     background-image: url(../image/beaty.jpg);
+    background-size: cover;
     padding: 100px 20px;
     text-align: center;
     background: linear-gradient(to right, #ffa500),#ff4f81;
