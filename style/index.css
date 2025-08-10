@@ -205,4 +205,22 @@ body{
   35%{ opacity:1 }
   100%{ opacity:0; background-position: 220% 0, 0 0; }
 }
+.subhead{
+  color:var(--ink-dim);
+  margin:0 auto 1.4rem; 
+  max-width: 60ch; 
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+}
+
+.cta-row{ 
+    display:flex; 
+    gap:.6rem;
+     justify-content:center;
+      flex-wrap:wrap;
+     }
+.cta-button{
+  display:inline-block; text-decoration:none; border-radius:999px; padding:.8rem 1.1rem; font-weight:700; letter-spacing:.3px;
+  transition: transform .2s ease, box-shadow .25s ease, background .25s ease, color .25s ease, border-color .25s ease;
+  border:1px solid rgba(255,255,255,.18);
+}
 
