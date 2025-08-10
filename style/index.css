@@ -15,7 +15,9 @@
 box-sizing:border-box;
 }
 body{
-    height:100%;
+   margin: 0;
+  padding: 0;
+  height: 100%;
 }
 :focus-within{
     scroll-behavior:smooth;
@@ -124,8 +126,12 @@ body{
 }
 .hero {
   position: relative;
-  overflow: visible;
-  background-color: #000; 
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
 .hero-bg {
   position: absolute;
@@ -135,9 +141,14 @@ body{
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  opacity: 0.6; 
+  opacity: 0.6;
   filter: brightness(0.8) contrast(1.1);
-  transition: opacity 0.8s ease-in-out;
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
 }
 @media (max-width: 768px) {
   .hero-bg {
@@ -153,7 +164,6 @@ body{
   pointer-events:none;
 }
 .hero::before{
-  /* moving stars */
   background:
     radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,.9), transparent 50%) 0 0/200px 200px,
     radial-gradient(1px 1px at 60% 70%, rgba(255,255,255,.6), transparent 50%) 0 0/160px 160px,
@@ -163,7 +173,6 @@ body{
   animation: drift 40s linear infinite;
 }
 .hero::after{
-  /* cinematic letterbox bars */
   background:
     linear-gradient(#000, transparent 18%) top/100% 20% no-repeat,
     linear-gradient(transparent 82%, #000) bottom/100% 20% no-repeat;
