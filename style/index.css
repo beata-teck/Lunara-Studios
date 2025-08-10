@@ -124,7 +124,7 @@ body{
 }
 .hero {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   background-color: #000; 
 }
 .hero-bg {
