@@ -273,6 +273,45 @@ body{
     color:var(--ink);
      box-shadow: var(--shadow-neon);
      }
+@media (max-width: 840px){
+  .burger{ 
+    display:block;
+ }
+  .nav{ 
+    border-radius:14px;
+ }
+  .nav-links{
+    position:fixed; 
+    inset:72px var(--pad) auto var(--pad);
+    display:grid; 
+    gap:.4rem;
+    padding:.6rem; 
+    background: var(--glass);
+    border:1px solid rgba(255,255,255,.12);
+     border-radius:14px; 
+     backdrop-filter: blur(10px);
+    transform-origin: top right;
+    transform: translateY(-16px) scale(.98);
+    opacity:0; 
+    visibility:hidden; 
+    transition: opacity .25s ease, transform .25s ease, visibility .25s;
+  }
+  .nav-toggle:checked ~ .nav-links{
+    opacity:1;
+    visibility:visible; 
+    transform: translateY(0) scale(1);
+  }
+ 
+  .nav-toggle:checked + .burger span:nth-child(1){ 
+    transform: translateY(7px) rotate(45deg);
+ }
+  .nav-toggle:checked + .burger span:nth-child(2){ 
+    opacity:0 ;
+}
+  .nav-toggle:checked + .burger span:nth-child(3){ 
+    transform: translateY(-7px) rotate(-45deg);
+ }
+}
 
 
 
