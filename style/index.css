@@ -76,3 +76,7 @@ footer tg{
     background-color: rgb(0, 153, 255);
 
 }
+footer git{
+    background-image: url(/image/git.svg);
+    background-color: greenyellow;
+}
