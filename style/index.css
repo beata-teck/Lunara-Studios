@@ -127,7 +127,6 @@ body{
   overflow: hidden;
   background-color: #000; 
 }
-
 .hero-bg {
   position: absolute;
   top: 0;
@@ -139,6 +138,12 @@ body{
   opacity: 0.6; 
   filter: brightness(0.8) contrast(1.1);
   transition: opacity 0.8s ease-in-out;
+}
+@media (max-width: 768px) {
+  .hero-bg {
+    opacity: 0.4;
+    filter: brightness(0.7);
+  }
 }
 .hero::before,
 .hero::after{
