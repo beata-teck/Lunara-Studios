@@ -3,37 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lunara-Studios</title>
+    <title>Lunara-Studios - Stories In Motion</title>
+     <meta name="description" content="Lunara Studios crafts motion graphics, 2D/3D animation, and cinematic intros for brands, filmmakers, and creators." />
     <link rel="stylesheet" href="style/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-   <header>
-    <nav>
-        <h1 class="logo">Lunara</h1>
-        <ul class="nav-link">
-        <li><a href="index.html">Home</a></li>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" aria-label="Primary">
+    <nav class="nav">
+      <a href="index.html" class="logo" aria-label="Lunara Studios">Lunara<span>Studios</span></a>
+
+      <!--only mobile menu toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu" />
+      <label for="nav-toggle" class="burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a class="is-active" href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-       <li> <a href="portfolio.html">portfolio</a></li>
-       <li> <a href="contact.html">Contact</a></li>
-        </ul>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-   </header> 
-   <main>
-    <section class="hero">
-        <h2>Let Your Creativity Shine</h2>
-        <p>A Creative launchpad for dreamers, and bold makers.</p>
-        <a href="#" class="cta-button">explore Now.
-        </a>
+  </header>
+
+   <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+<p class="kiker">Creative Animation And Motion Design.</p>
+<h1 id="hero-title" class="headline" data-text="Let Your Creativity Shine">
+          Let Your Creativity Shine
+        </h1>
+ <p class="subhead">
+          A creative launchpad for dreamers and bold makers — where stories come alive in motion.
+        </p>
+ <div class="cta-row">
+          <a class="cta-button primary" href="portfolio.html">Explore Now</a>
+          <a class="cta-button ghost" href="about.html">Our Approach</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
     </section>
    </main>
-   <footer>
-    <a href="@bata1t" class="tg">Telegram</a>
-    <a href="https://github.com/beata-teck" class="git">Github</a>
-    <p>@2025 Lunara All rights reserved</p>
-   </footer>
+   <footer class="site-footer">
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a class="tg" href="#" aria-label="Telegram profile">@bata1t</a></li>
+        <li><a class="git" href="https://github.com/beata-teck">GitHub</a></li>
+      </ul>
+    </nav>
+    <p>© 2025 Lunara — All rights reserved.</p>
+  </footer>
 </body>
 </html>

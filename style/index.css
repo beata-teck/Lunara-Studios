@@ -1,3 +1,17 @@
+:root{
+  --bg-0: #06070f;
+  --bg-1: #0b0c1a;
+  --ink: #eef3ff;
+  --ink-dim: #aab3c7;
+  --neon: #00f7ff;
+  --hot: #ff2d7a;
+  --glass: rgba(255,255,255,.06);
+  --line: rgba(255,255,255,.1);
+  --shadow-neon: 0 0 24px rgba(0,247,255,.25), 0 0 48px rgba(255,45,122,.18);
+  --radius: 16px;
+  --pad: clamp(16px, 3vw, 28px);
+}
+
 body{
     margin: 0;
     font-family: 'poppins' , sans-serif;
