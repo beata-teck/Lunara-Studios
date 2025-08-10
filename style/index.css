@@ -104,6 +104,9 @@ body{
   background: linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.04));
   box-shadow: var(--shadow-neon);
 }
+.nav-toggle{ position:absolute; left:-9999px }
+.burger{ display:none; cursor:pointer; padding:.3rem .4rem; border-radius:8px }
+.burger span{ display:block; width:24px; height:2px; margin:5px 0; background:var(--ink); transition: transform .3s, opacity .3s }
 
 header{
    background-image: url(../image/for\ header.jpg);
