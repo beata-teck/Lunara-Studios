@@ -312,6 +312,13 @@ body{
     transform: translateY(-7px) rotate(-45deg);
  }
 }
+@media (prefers-reduced-motion: reduce){
+  *{ 
+    animation: none !important;
+     transition: none !important; 
+    }
+}
+
 
 
 
