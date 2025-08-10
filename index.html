@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lunara-Studios - Stories In Motion</title>
-     <meta name="description" content="Lunara Studios crafts motion graphics, 2D/3D animation, and cinematic intros for brands, filmmakers, and creators." />
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunara-Studios - Stories In Motion</title>
+  <meta name="description" content="Lunara Studios crafts motion graphics, 2D/3D animation, and cinematic intros for brands, filmmakers, and creators.">
+  <meta property="og:title" content="Lunara Studios — Stories in Motion">
+  <meta property="og:description" content="Bold, colorful, kinetic storytelling for brands, filmmakers, and creators.">
+  <meta property="og:image" content="/image/og-cover.jpg">
+  <meta name="theme-color" content="#1a1a1a">
+
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header" aria-label="Primary">
     <nav class="nav">
       <a href="index.html" class="logo" aria-label="Lunara Studios">Lunara<span>Studios</span></a>
 
-      <!--only mobile menu toggle -->
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu" />
+      
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
       <label for="nav-toggle" class="burger" aria-hidden="true">
         <span></span><span></span><span></span>
       </label>
@@ -32,28 +37,88 @@
     </nav>
   </header>
 
-   <main id="main">
+  <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-        <img src="/image/studio.jpg" alt="Studio scene" class="hero-bg" />
-        <div class="hero-inner">
-<p class="kiker">Creative Animation And Motion Design.</p>
-<h1 id="hero-title" class="headline" data-text="Let Your Creativity Shine">
+      <img src="/image/studio.jpg" alt="Studio scene" class="hero-bg">
+      <div class="hero-inner">
+        <p class="kiker">Creative Animation And Motion Design.</p>
+        <h1 id="hero-title" class="headline" data-text="Let Your Creativity Shine">
           Let Your Creativity Shine
         </h1>
- <p class="subhead">
+        <p class="subhead">
           A creative launchpad for dreamers and bold makers — where stories come alive in motion.
         </p>
- <div class="cta-row">
+        <div class="cta-row">
           <a class="cta-button primary" href="portfolio.html">Explore Now</a>
           <a class="cta-button ghost" href="about.html">Our Approach</a>
         </div>
       </div>
     </section>
+
+    <section class="featured-projects" aria-labelledby="projects-title">
+      <div class="section-head">
+        <h2 id="projects-title">Featured Projects</h2>
+        <a class="section-cta" href="portfolio.html">See All</a>
+      </div>
+
+      <div class="carousel" role="list">
+        <article class="project-card" role="listitem">
+          <img src="/image/project1.gif" alt="Animated ad for Bubbly Soda">
+          <div class="card-meta">
+            <h3>Ad: Bubbly Soda</h3>
+            <p class="tag">Ads</p>
+          </div>
+        </article>
+
+        <article class="project-card" role="listitem">
+          <img src="/image/project2.gif" alt="Explainer animation for fintech onboarding">
+          <div class="card-meta">
+            <h3>Onboarding Flow</h3>
+            <p class="tag">Explainers</p>
+          </div>
+        </article>
+
+        <article class="project-card" role="listitem">
+          <img src="/image/project3.gif" alt="Title sequence for indie film">
+          <div class="card-meta">
+            <h3>Indie Film Titles</h3>
+            <p class="tag">Title Sequences</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="studio-values" aria-label="Why Lunara">
+      <h2>Why Lunara?</h2>
+      <ul class="values-list">
+        <li>
+          <img src="/image/icon-creativity.svg" alt="" aria-hidden="true">
+          <strong>Creativity</strong>
+          <p>Ideas that push boundaries.</p>
+        </li>
+        <li>
+          <img src="/image/icon-collab.svg" alt="" aria-hidden="true">
+          <strong>Collaboration</strong>
+          <p>Great minds, greater motion.</p>
+        </li>
+        <li>
+          <img src="/image/icon-originality.svg" alt="" aria-hidden="true">
+          <strong>Originality</strong>
+          <p>Nothing off-the-shelf.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="testimonial" aria-label="Testimonial">
+      <figure>
+        <blockquote>
+          “They turned our rough storyboard into a kinetic anthem. Our launch views doubled.”
+        </blockquote>
+        <figcaption>— Maya R., Creative Director</figcaption>
+      </figure>
+    </section>
+    <a class="floating-cta" href="contact.html" aria-label="Start a project with Lunara">✨ Let’s Animate Something</a>
   </main>
 
-    </section>
-   </main>
-   <footer class="site-footer">
+  <footer class="site-footer">
     <nav aria-label="Footer">
       <ul class="footer-links">
         <li><a class="tg" href="#" aria-label="Telegram profile">@bata1t</a></li>
