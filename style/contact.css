@@ -223,10 +223,10 @@ body {
     background-color: #FF0069;
 }
 .telegram{
-    color: #26A5E4;
+    background-color: #26A5E4;
 }
 .git{
-    color: #181717;
+    background-color: #181717;
 }
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
