@@ -219,8 +219,15 @@ body {
 .social-icons a:hover img {
   transform: scale(1.2);
 }
-
-
+.insta{
+    background-color: #FF0069;
+}
+.telegram{
+    color: #26A5E4;
+}
+.git{
+    color: #181717;
+}
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
