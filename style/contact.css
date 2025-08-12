@@ -15,8 +15,7 @@ html, body {
      }
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--ink);
+background-image: url(/image/);
   font-family: "Mozilla Text", system-ui, sans-serif;
   line-height: 1.55;
 }
@@ -177,7 +176,6 @@ body {
   text-align: center;
   font-style: italic;
   color: #CBB4F0;
-  animation: fadeIn 0.8s ease forwards;
 }
 
 #confirmation:target {
@@ -187,6 +185,7 @@ body {
 #confirmation:target ~ .contact-form {
   display: none;
 }
+
 
 
 .back-link {
