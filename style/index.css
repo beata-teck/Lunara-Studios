@@ -1,4 +1,4 @@
-/* ---------- GLOBAL RESET ---------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
   line-height: 1.5;
 }
 
-/* ---------- SKIP LINK (ACCESSIBILITY) ---------- */
+/* SKIP LINK (ACCESSIBILITY)  */
 .skip-link {
   position: absolute;
   top: -40px;
@@ -34,7 +34,7 @@ body {
   top: 10px;
 }
 
-/* ---------- NAVIGATION ---------- */
+/*  NAVIGATION  */
 .site-header {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
@@ -92,7 +92,7 @@ body {
   to { width: 100%; }
 }
 
-/* ---------- HERO SECTION ---------- */
+/* HERO SECTION  */
 .hero {
   position: relative;
   display: flex;
@@ -181,7 +181,7 @@ body {
   box-shadow: 0 0 15px rgba(255,255,255,0.3);
 }
 
-/* ---------- RESPONSIVE ---------- */
+/*  RESPONSIVE */
 @media (max-width: 1024px) {
   .nav-links {
     gap: 1.5rem;
@@ -197,7 +197,7 @@ body {
     text-align: center;
   }
   .nav-links {
-    display: none; /* mobile menu will take over */
+    display: none; 
   }
   .cta-row {
     flex-direction: column;
@@ -217,7 +217,7 @@ body {
   }
 }
 
-/* === FEATURED PROJECTS SECTION === */
+/* FEATURED PROJECTS SECTION */
 .featured-projects {
   padding: 6rem 2rem;
   background: #1a1a1a;
@@ -285,7 +285,7 @@ body {
     height: 160px;
   }
 }
-/* === WHY LUNARA SECTION === */
+/*  WHY LUNARA SECTION */
 .studio-values {
   padding: 6rem 2rem;
   background-color: #0f0f0f;
@@ -341,7 +341,7 @@ body {
   font-size: 1rem;
   color: #ccc;
 }
-/* === TESTIMONIAL SECTION === */
+/* TESTIMONIAL SECTION  */
 .testimonial {
   background: radial-gradient(circle at top, #1a1a1a, #0f0f0f);
   padding: 5rem 2rem;
@@ -384,7 +384,7 @@ body {
   color: #ffeb3b;
   font-weight: 500;
 }
-/* === FLOATING CTA === */
+/*FLOATING CTA  */
 .floating-cta {
   display: inline-block;
   margin: 4rem auto;
@@ -404,7 +404,7 @@ body {
   transform: scale(1.05);
   box-shadow: 0 0 30px rgba(255, 77, 225, 0.5);
 }
-/* === CLOSING LINE === */
+/*  CLOSING LINE */
 .closing-line {
   text-align: center;
   padding: 3rem 2rem 1rem;
@@ -423,7 +423,7 @@ body {
 .closing-line p:hover {
   opacity: 1;
 }
-/* === FOOTER === */
+/* FOOTER */
 .site-footer {
   background-color: #111;
   color: #aaa;
