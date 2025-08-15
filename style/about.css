@@ -10,6 +10,16 @@
 * { 
     box-sizing: border-box;
  }
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
 html, body {
      height: 100%;
      }
@@ -38,6 +48,24 @@ body {
     backdrop-filter: blur(8px); 
     background: color-mix(in srgb, #0f0f12 85%, transparent); 
     z-index: 10; 
+}
+@media (max-width: 600px) {
+  /* Story Block */
+  .lunara-story {
+    padding: 3rem 1rem;
+  }
+  .story-block p {
+    font-size: 1rem;
+  }
+
+  /* Team Grid */
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .team-card {
+    padding: 1rem;
+  }
 }
 .nav {
      display: grid; 

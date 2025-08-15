@@ -16,6 +16,64 @@ body {
   background-color: #111;
   line-height: 1.5;
 }
+/* Improve tap target spacing & font scaling on small devices */
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  /* Navigation */
+  .nav-links {
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 3rem 1rem;
+    min-height: auto;
+  }
+  .headline {
+    font-size: 1.8rem;
+  }
+  .subhead {
+    font-size: 1rem;
+  }
+
+  /* CTA Row */
+  .cta-button {
+    width: 100%;
+  }
+
+  /* Featured Projects */
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .project-image {
+    height: auto;
+  }
+
+  /* Studio Values */
+  .values-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* Testimonials */
+  .testimonial blockquote {
+    font-size: 1.1rem;
+  }
+}
 
 /* SKIP LINK (ACCESSIBILITY)  */
 .skip-link {

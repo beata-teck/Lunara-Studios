@@ -10,6 +10,17 @@
 * { 
     box-sizing: border-box;
  }
+ /* Improve tap target spacing & font scaling on small devices */
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
 html, body {
      height: 100%;
      }
@@ -19,6 +30,25 @@ body {
   color: var(--ink);
   font-family: "Mozilla Text", system-ui, sans-serif;
   line-height: 1.55;
+}
+@media (max-width: 600px) {
+  .portfolio-intro {
+    padding: 2.5rem 1rem;
+  }
+  .portfolio-intro h2 {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-gallery {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .overlay {
+    padding: 1rem;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
 }
 .skip-link {
   position: absolute;
